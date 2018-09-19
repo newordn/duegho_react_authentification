@@ -1,5 +1,5 @@
 import React from 'react';
-import './footerAuth.css';
+import './FooterAuth.css';
 
 {/* This component is for the footer of the duegho 
 authentification platform*/}

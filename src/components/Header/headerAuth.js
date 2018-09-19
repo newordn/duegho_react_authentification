@@ -1,5 +1,5 @@
 import React from 'react';
-import './headerAuth.css';
+import './HeaderAuth.css';
 
 {/* This component is for the header of the duegho 
 authentification platform*/}
