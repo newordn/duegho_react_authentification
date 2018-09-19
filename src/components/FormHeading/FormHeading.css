@@ -1,7 +1,6 @@
 
 .form-title
 {
-  font-family: poppins-black;
   font-size: 1.75rem;
   font-weight: 900;
   font-style: normal;
@@ -11,7 +10,6 @@
 }
 .to-paykap_style
 {
- font-family: poppins-regular;
  font-size: 0.75rem;
   font-weight: normal;
   line-height: 2;
@@ -23,7 +21,6 @@
     font-style: italic;
     line-height: 2;
     color: #95989a;
-    font-family: poppins-blackItalic;
 }
 .form-bottom_phone
 {

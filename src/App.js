@@ -4,8 +4,8 @@ import Login from "./pages/login/login";
 import Register from "./pages/register/register";
 import Forgot from "./pages/forgot/forgot";
 import Code from "./pages/code/code";
+import Recover from "./pages/recover/recover";
 import Setup from "./pages/setup/setup";
-import Importation from "./Importation/Importation";
 import "./App.css";
 
 class App extends Component {
@@ -18,8 +18,8 @@ class App extends Component {
           <Route path="/register" component={Register} />
           <Route path="/forgot" component={Forgot} />
           <Route path="/code" component={Code} />
+          <Route path="/recover" component={Recover} />
           <Route path="/setup" component={Setup} />
-          <Route path="/import" component={Importation} />
         </Switch>
       </Router>
     );
