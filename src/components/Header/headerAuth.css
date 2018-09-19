@@ -42,12 +42,10 @@
       display: inline-block;
       margin: 1rem 1rem 0 2rem;
       text-decoration: none;
-      color: #1cc3ea;
 
     }
-    .header__inscription_color-w
-    {
-      color:white;
+    .header-active {
+      color:#1cc3ea;
     }
   /* desktop */  
 

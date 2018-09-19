@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {BrowserRouter as Router, Route,Switch} from 'react-router-dom';
-import Authentification from './Authentification/Authentification';
+import Login from './pages/login';
 import Importation from './Importation/Importation';
 import './App.css';
 
@@ -11,12 +11,10 @@ class App extends Component
 	 {
 	 	return(
 			 <Router>
-				 <div class="app">
 					 <Switch>
+		 				<Route path="/" component={Login}></Route>	
 						<Route path="/importation" component={Importation}></Route>	
-		 				<Route path="/" component={Authentification}></Route>	
 				  	</Switch>
-				  </div>
 			 </Router>
 			 );
 	 }

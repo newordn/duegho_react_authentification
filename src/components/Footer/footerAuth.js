@@ -1,8 +1,8 @@
 import React from 'react';
 import './FooterAuth.css';
 
-{/* This component is for the footer of the duegho 
-authentification platform*/}
+/* This component is for the footer of the duegho 
+authentification platform*/
 
 class Footer extends React.Component
 {
@@ -18,7 +18,7 @@ class Footer extends React.Component
 				<a class="footer__item">Cookies</a>
 				<a class="footer__item">Confidentialité</a>
 				<a class="footer__item">Conditions d'utilisations</a>
-				<button class="footer__item footer__item_button">FR</button>
+				<button class="footer__item footer__item_button">fr</button>
 			</footer>
 			);
 	}

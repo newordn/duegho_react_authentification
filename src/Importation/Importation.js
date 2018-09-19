@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from '../components/Header/HeaderSetup';
 import Footer from '../components/Footer/FooterSetup';
 import ImportationContact from './ImportationContact/ImportationContact';

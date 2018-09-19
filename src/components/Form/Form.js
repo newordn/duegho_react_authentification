@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import Link from 'react-router-dom/Link';
 import './Form.css';
 import Bottom from './Bottom';
 import Email from '../inputs/Email/Email';
@@ -15,7 +16,7 @@ class Form extends Component
 							<form className="form_align_right ">
 								<Email/>
 								<Password/>
-								<span className="form_forgot-password form__input_margin">mot de passe oublié?</span>
+								<Link to="/forgot" className="form_forgot-password form__input_margin">mot de passe oublié?</Link>
 								<SubmitButton content="SE CONNECTER"/>
 							</form>
 					</div>
