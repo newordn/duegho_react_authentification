@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import Link from 'react-router-dom/Link';
 import './Bottom.css';
 // Form Botton Component
 class Bottom extends Component
@@ -11,7 +12,7 @@ class Bottom extends Component
 						Vous n'avez pas encore de compte? Inscrivez-vous
 					</div>
 					<div className="form-bottom form-bottom_size">
-						Vous n'avez pas encore de compte?<a  className="form-bottom__inscription-button">Inscrivez-vous</a>
+						<Link to="/register">Vous n'avez pas encore de compte? <span className="form-bottom__inscription-button">Inscrivez-vous</span></Link>
 					</div>	
 				</div>
 			);

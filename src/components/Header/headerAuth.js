@@ -2,17 +2,24 @@ import React from 'react';
 import Link from 'react-router-dom/Link';
 import './HeaderAuth.css';
 
-/* This component is for the header of the duegho 
-authentification platform*/
+/* 
+* This component is for the header of 
+* the duegho authentification platform
+*/
 
-class Header extends React.Component
-{
+class Header extends React.Component {
+	// activer le lien cliquer
+	/*
+	* Lorsque tu cliques sur un lien,
+	* Remove "header-active" sur le précedent
+	* insere le sur le lien cliqué 
+	 */
 
 	render()	{
 		return (
 			<header className="header">
 				<div className="header_col_1">
-					<Link to="/" className="header__logo_style header__logo_size-small" >Duegho</Link>
+					<Link to="/" className="header__logo_style header__logo_size-small">Duegho</Link>
 				</div>
 
 				<div className="header_col_2">

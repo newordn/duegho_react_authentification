@@ -98,6 +98,7 @@
   text-align: left;
   color: var(--input-label-color);
   font-family: poppins-medium;
+  font-size: 0.8em;
 }
 .form__input_margin
 {
