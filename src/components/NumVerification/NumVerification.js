@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import './Registration.css';
+import './NumVerification.css';
 
 
-// the registration component
-class Registration extends Component {
+// the NumVerification component
+class NumVerification extends Component {
     render() {
         return (
-                <div class="registration">
-                    Registration
+                <div class="numVerification">
+                    numVerification
                 </div>
         );
     }
 }
 
-export default Registration;
+export default NumVerification;

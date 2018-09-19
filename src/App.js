@@ -11,9 +11,11 @@ class App extends Component
 	 {
 	 	return(
 			 <Router>
-				 <div>
-		 			<Route path="/importation" component={Importation}></Route>	
-		 			<Route path="/" component={Authentification}></Route>	
+				 <div class="app">
+					 <Switch>
+						<Route path="/importation" component={Importation}></Route>	
+		 				<Route path="/" component={Authentification}></Route>	
+				  	</Switch>
 				  </div>
 			 </Router>
 			 );

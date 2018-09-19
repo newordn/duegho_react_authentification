@@ -1,7 +1,4 @@
-:root
-{
-	--background-image: url("/imgs/Background.png");
-};
+
 /* fonts poppins Black, BlackItalic,Medium,Regular */
 /* devanagari */
 @font-face {
@@ -109,12 +106,10 @@ html,body
   font-family: poppins-medium;
   box-sizing: border-box;
   margin:0;
-  background-image: var(--background-image);
 }
 
 
 .main_background
 {
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-}
+ }
