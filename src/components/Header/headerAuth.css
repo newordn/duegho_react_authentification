@@ -1,0 +1,71 @@
+.header
+    {
+      display: flex;
+      padding: 0rem 10rem 0 10rem;
+
+    }
+    .header__logo_style
+    {
+      font-family: poppins-BlackItalic;
+      font-weight: 900;
+      font-style: italic;
+      font-stretch: normal;
+      letter-spacing: normal;
+      color: #1cc3ea;
+      text-decoration: none;  
+    }
+    .header__logo_size-small
+    {
+      font-size: 1.25rem;
+    }
+    .header__logo_size-medium
+    {
+      font-size: 1.75rem;
+    }
+
+    .header_col_1
+    {
+      line-height: 50%;
+      width: 50%;
+      text-align: left;
+    }
+
+    .header_col_2
+    {
+      width: 50%;
+      text-align: right;
+      font-size: 0.75rem;
+      font-weight: 500;
+      }
+    header a
+    {
+      display: inline-block;
+      margin: 1rem 1rem 0 2rem;
+      text-decoration: none;
+      color: #1cc3ea;
+
+    }
+    .header__inscription_color-w
+    {
+      color:white;
+    }
+  /* desktop */  
+
+  /* phone */  
+    @media(max-width: 640px)
+    {
+      .header
+      {
+        display: none;
+      }
+      .header__logo_style
+      {  
+        font-family: poppins-bold;
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5;
+        text-align: left;
+        color: #707070; 
+      }
+    }
+  /* phone */
