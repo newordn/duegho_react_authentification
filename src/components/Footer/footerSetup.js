@@ -1,13 +1,17 @@
-import React, { Component } from 'react';
-import './FooterSetup.css';
+import React, { Component } from "react";
+import Button from "../../components/Button/Button";
+import "./footer.css";
 
 // setup's footer
 class FooterSetup extends Component {
-    render() {
-        return (
-            <div></div>
-        );
-    }
+  render() {
+    return (
+    <footer className="footer footer_background">
+        <Button content="Ignore" />
+        <Button content="Suivant" />
+    </footer>
+    )
+  }
 }
 
 export default FooterSetup;

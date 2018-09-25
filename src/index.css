@@ -13,6 +13,27 @@ body {
   padding: 0;
 }
 
+.brand {
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #1cc3ea!important;
+  text-decoration: none;
+}
+
+.brand-header {
+  font-size: 2.75em;
+}
+
 .main_background {
   height: 100%;
+}
+
+.primary {
+  color: #1cc3ea;
+}
+
+.container {
+  margin: 0 auto;
 }

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Login from "./pages/login/login";
-import Register from "./pages/register/register";
-import Forgot from "./pages/forgot/forgot";
-import Code from "./pages/code/code";
-import Recover from "./pages/recover/recover";
+import Login from "./pages/login";
+import Register from "./pages/register";
+import Forgot from "./pages/forgot";
+import Code from "./pages/code";
+import Recover from "./pages/recover";
 import Setup from "./pages/setup/setup";
 import "./App.css";
 

@@ -8,43 +8,23 @@ class Input extends Component {
   constructor(props) {
     super(props);
     this.onChange = this.onChange.bind(this);
-    this.state = {
-      inputText: "",
-      inputStyle: [this.props.style, this.props.errorBorderColor],
-      errorMessage: [this.props.showError, this.props.errorMessage]
-    };
   }
 
   onChange(e) {
-    const val = e.target.value;
-    e.preventDefault(); // prevent any type of default behavior
-    this.setState({ inputText: val });
-    this.props.onChange(val);
+    this.setState({ [e.target.name]: e.target.value });
   }
-  // to update the component where there is a error
-  componentWillReceiveProps(nextProps) {
-    this.setState({
-      inputStyle: ["form__input", nextProps.errorBorderColor],
-      errorMessage: [nextProps.showError, nextProps.errorMessage]
-    });
-  }
+
   render() {
     return (
-      <div>
+      <div className="input-field">
         <input
           id={this.props.id}
           type={this.props.type}
           placeholder={this.props.placeholder}
           name={this.props.name}
-          className={this.state.inputStyle.join(" ")}
           onChange={this.onChange}
-          value={this.state.inputText}/>
-        <label
-          class="input__label"
-          htmlFor={this.props.id}
-          display={this.state.errorMessage[0]}>
-          {this.state.errorMessage[1]}
-        </label>
+        />
+        <span className="message" />
       </div>
     );
   }
@@ -54,9 +34,6 @@ class Input extends Component {
     placeholder: PropTypes.string,
     type: PropTypes.string,
     id: PropTypes.string
-  };
-  static defaultProps = {
-    showError: "none"
   };
 }
 

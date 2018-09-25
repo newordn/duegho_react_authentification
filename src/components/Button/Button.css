@@ -1,0 +1,18 @@
+.btn {
+  height: 36px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #1cc3ea;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0 2em;
+  margin: 0 1em;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn.full {
+  width: 100%;
+  margin: 0 auto!important;
+}

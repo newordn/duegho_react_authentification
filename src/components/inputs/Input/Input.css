@@ -1,49 +1,44 @@
-/* variables */
-  :root
-  {
-    --input-border-radius:5px;
-    --input-padding:1rem;
-    /* colors */
-    --input-background-color:#fff;
-    --input-border-color:#95989a;
-    --input-placeholder-color:#95989a;
-    --input-margin-bottom-label:0.28rem;
-    --input-label-color: #ff2c41;
-  }
-/* variables */
+.input-field {
+  margin-bottom: 12px;
+}
 
-.form__input {
+.input-field  input, .input-field  select{
 	width: 100%;
-  display: block;
-  height: 2.25rem;
-  border-radius: var(--input-border-radius);
-  background-color: var(--input-background-color);
-  border: solid 1px var(--input-border-color);
-  padding: 0 var(--input-padding) 0 var(--input-padding);
-  box-sizing: border-box;
+  height: 36px;
+  display: inline-block;
+  line-height: 36px;
+  margin-bottom: 4px;
+  padding: 0 1em;
+  border: 1px solid rgba(0, 0, 0, 0.36);
+  border-radius: 4px;
   outline: none;
-  margin-bottom: var(--input-margin-bottom-label)
 }
+
+.input-field  select option{
+	color: rgba(0, 0, 0, 1);
+}
+
+.input-field  select, .input-field  select > option:first-child {
+	color: rgba(0, 0, 0, 0.36);
+}
+
 ::placeholder {
-	color: var(--input-placeholder-color);
+	color: rgba(0, 0, 0, 0.36);
 }
-.input__border_error-color {
+
+.error {
   border-color:red;
 }
-.input__border_success-color {
-  border-color:blue;
+.success {
+  border-color:green;
 }
-.input__label {
+.message {
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.2;
   letter-spacing: normal;
   text-align: left;
-  color: var(--input-label-color);
-  font-family: poppins-medium;
+  color: rgba(0, 0, 0, 0.36);
   font-size: 0.8em;
-}
-.form__input_margin {
-  margin-bottom:var(--space-between-block);
 }
